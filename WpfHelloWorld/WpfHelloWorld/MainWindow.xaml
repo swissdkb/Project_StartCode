@@ -14,14 +14,7 @@
                 <GradientStop Color="#FFA7CCE6" Offset="0.995"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="ButtonSayHello" Content="Click Me" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Width="772" Height="40" Background="{x:Null}" Click="ButtonSayHello_Click" FontSize="20"/>
-        <TextBox x:Name="textBoxShowHello" HorizontalAlignment="Left" Height="40" Margin="10,140,0,0" TextWrapping="Wrap" Width="772" TextChanged="TextBox_TextChanged" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" TextAlignment="Center">
-            <TextBox.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFF3F6F7" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBox.Background>
-        </TextBox>
+        <TextBox x:Name="textBoxHelloWorld" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772"/>
+        <Button x:Name="ButtonSayHello" Content="Click Me" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="772" Click="ButtonSayHello_Click_1"/>
     </Grid>
 </Window>

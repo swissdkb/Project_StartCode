@@ -27,7 +27,11 @@ namespace WpfHelloWorld
 
         private void ButtonSayHello_Click(object sender, RoutedEventArgs e)
         {
-            textBoxShowHello.Text = "Hello,World!";
+        }
+
+        private void ButtonSayHello_Click_1(object sender, RoutedEventArgs e)
+        {
+            textBoxHelloWorld.Text = "Hello,World";
         }
     }
 }
