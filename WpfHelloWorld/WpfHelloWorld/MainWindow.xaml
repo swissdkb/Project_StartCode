@@ -9,12 +9,13 @@
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF00B5F9" Offset="0"/>
                 <GradientStop Color="White" Offset="1"/>
+                <GradientStop Color="#FFA7CCE6" Offset="0.995"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="ButtonSayHello" Content="Button" HorizontalAlignment="Left" Margin="293,240,0,0" VerticalAlignment="Top" Width="249" Height="82" Background="{x:Null}" Click="ButtonSayHello_Click"/>
-        <TextBox x:Name="textBoxShowHello" HorizontalAlignment="Left" Height="75" Margin="293,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" TextChanged="TextBox_TextChanged">
+        <Button x:Name="ButtonSayHello" Content="Click Me" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Width="772" Height="40" Background="{x:Null}" Click="ButtonSayHello_Click" FontSize="20"/>
+        <TextBox x:Name="textBoxShowHello" HorizontalAlignment="Left" Height="40" Margin="10,140,0,0" TextWrapping="Wrap" Width="772" TextChanged="TextBox_TextChanged" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" TextAlignment="Center">
             <TextBox.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFF3F6F7" Offset="0"/>
