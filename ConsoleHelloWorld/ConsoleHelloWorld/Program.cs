@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tools;
 
 namespace ConsoleHelloWorld
 {
@@ -10,7 +11,8 @@ namespace ConsoleHelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello,World");
+            double result = Calculator.Sub(3, 3);
+            Console.WriteLine(result);
         }
     }
 }
